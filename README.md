@@ -52,17 +52,21 @@ cv2.imshow('BOAT',image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![1](https://github.com/user-attachments/assets/9e4db735-6649-49b4-a7fc-467d8e5f7693)
 
 ### ii)Write the image
 
 ```
 cv2.imwrite('b.jpg',image)
 ```
+![2](https://github.com/user-attachments/assets/9a6b269d-235c-44c1-aeea-bf7e1f67b08b)
+
 ### iii)Shape of the Image
 
 ```
 print(image.shape)
 ```
+![3](https://github.com/user-attachments/assets/de88cf4b-a055-4080-a45d-59b181e71867)
 
 ### iv)Access rows and columns
 
@@ -78,6 +82,8 @@ cv2.imshow('boat1',image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![4](https://github.com/user-attachments/assets/26d79c83-2512-4d9f-af28-e85155b3bd37)
+
 ### v)Cut and paste portion of image
 ```
 image=cv2.imread('boat.jpg',1)
@@ -88,6 +94,8 @@ cv2.imshow('boat2',image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![5](https://github.com/user-attachments/assets/d5d3e3b0-8739-4170-bbdc-dcfddfb29812)
+
 ### vi) BGR and RGB to HSV and GRAY
 ```
 img = cv2.imread('boat.jpg',1)
@@ -104,6 +112,7 @@ cv2.imshow('RGB2GRAY',gray2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![6](https://github.com/user-attachments/assets/9f47d279-004d-41b0-91b5-72d472d57fa3)
 
 ### vii) HSV to RGB and BGR
 ```
@@ -118,6 +127,8 @@ cv2.imshow('HSV2RGB',BGR)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![7](https://github.com/user-attachments/assets/eb550f11-1589-4d9e-8954-2d05ef4a5129)
+
 ### viii) RGB and BGR to YCrCb
 ```
 img = cv2.imread('boat.jpg')
@@ -130,6 +141,8 @@ cv2.imshow('BGR-2-YCrCb',YCrCb2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![8](https://github.com/user-attachments/assets/11fe6819-8091-4bfe-81fa-bf8b37d6af60)
+
 ### ix) Split and merge RGB Image
 ```
 img = cv2.imread('boat.jpg',1)
@@ -145,6 +158,8 @@ cv2.imshow('Merged RGB image',merged)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![9](https://github.com/user-attachments/assets/4f1c4f95-8854-431e-adab-ed4b2fd0effb)
+
 ### x) Split and merge HSV Image
 ```
 img = cv2.imread("boat.jpg",1)
@@ -159,6 +174,7 @@ cv2.imshow('Merged',merged)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
+![10](https://github.com/user-attachments/assets/65f26c23-370d-4826-bffb-cef20cab300b)
 
 
 

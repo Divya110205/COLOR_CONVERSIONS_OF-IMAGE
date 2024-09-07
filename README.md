@@ -25,7 +25,7 @@ Anaconda - Python 3.7
 ### Step1:
 Load an image from your local directory and display it.
 ### Step2:
-1.Draw a line from the top-left to the bottom-right of the image.
+1.  Draw a line from the top-left to the bottom-right of the image.
 
 2.	Draw a circle at the center of the image.
 
@@ -206,7 +206,7 @@ print(f"Pixel value at (100, 100): {pixel_value}")
 
 ![10](https://github.com/user-attachments/assets/f70eb357-3baa-4dcd-b7a2-be6632d8ccc7)
 
-(2) Modify the color of the pixel at (199, 199) to white
+(2) Modify the color of the pixel at (200, 200) to white
 ```
 import cv2
 image = cv2.imread('boat.jpg',1)

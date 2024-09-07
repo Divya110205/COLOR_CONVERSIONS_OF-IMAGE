@@ -25,39 +25,40 @@ Anaconda - Python 3.7
 ### Step1:
 Load an image from your local directory and display it.
 ### Step2:
-o	Draw a line from the top-left to the bottom-right of the image.
-o	Draw a circle at the center of the image.
-o	Draw a rectangle around a specific region of interest in the image.
-o	Add the text "OpenCV Drawing" at the top-left corner of the image.
+1.Draw a line from the top-left to the bottom-right of the image.
+
+2.	Draw a circle at the center of the image.
+
+3.	Draw a rectangle around a specific region of interest in the image.
+
+4.	Add the text "OpenCV Drawing" at the top-left corner of the image.
 
 ### Step3:
-o	Convert the image from RGB to HSV and display it.
-o	Convert the image from RGB to GRAY and display it.
-o	Convert the image from RGB to YCrCb and display it.
-o	Convert the HSV image back to RGB and display it.
+1.	Convert the image from RGB to HSV and display it.
+2.	Convert the image from RGB to GRAY and display it.
+3.	Convert the image from RGB to YCrCb and display it.
+4.	Convert the HSV image back to RGB and display it.
 
 ### Step4:
-o	Access and print the value of the pixel at coordinates (100, 100).
-o	Modify the color of the pixel at (200, 200) to white.
+1.	Access and print the value of the pixel at coordinates (100, 100).
+2.	Modify the color of the pixel at (200, 200) to white.
 
 ### Step5:
-o	Resize the original image to half its size and display it.
+Resize the original image to half its size and display it.
 ### Step6:
-o	Crop a region of interest (ROI) from the image (e.g., a 100x100 pixel area starting at (50, 50)) and display it.
+Crop a region of interest (ROI) from the image (e.g., a 100x100 pixel area starting at (50, 50)) and display it.
 ### Step7:
-o	Flip the original image horizontally and display it.
-o	Flip the original image vertically and display it.
+1.	Flip the original image horizontally and display it.
+2.	Flip the original image vertically and display it.
 
 ### Step8:
 o	Save the final modified image to your local directory.
 
-
-##### Program:
 ### Developed By: DIVYA.A
 ### Register Number: 212222230034
 
 
-## Output:
+## Program & Output:
 
 ### i)Read and Display an Image
 Load an image from your local directory and display it.

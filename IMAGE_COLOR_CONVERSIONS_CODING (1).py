@@ -1,3 +1,6 @@
+#NAME:DIVYA.A
+#REG.NO:212222230034
+
 #read and diplay image
 import cv2
 image = cv2.imread("boat.jpg")
